@@ -14,8 +14,8 @@ namespace Cal_Nyz_Test
 		{
 			// TODO: 在此输入测试代码
 			Cal_Nyz* calc = new Cal_Nyz();
-			string ret = calc->Solve("12*2");
-			Assert::AreEqual(ret, (string)"12*2=24");
+			string ret = calc->Solve("22*5");
+			Assert::AreEqual(ret, (string)"22*5=110");
 		}
 
 	};

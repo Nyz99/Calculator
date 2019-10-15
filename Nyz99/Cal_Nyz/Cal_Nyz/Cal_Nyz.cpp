@@ -104,24 +104,19 @@ string Cal_Nyz::Solve(string formula) {
 }
 
 int main()
-{
+{  
 	Cal_Nyz* calc = new Cal_Nyz();
 
-	//string question = calc->MakeFormula();
-	//cout << question << endl;
+	 string question = calc->MakeFormula();	
 
+	 string ret = calc->Solve("5+22");
+		   
+	 cout << ret << endl;
+		
 
-	//int n;
-	//cout << "输入n,产生n个随机表达式"<<endl;
-	//cin >> n;
-	////cout << b << endl; 
-	//for (int i = 0; i < n; i++)
-	//{
-	//	
-	//}
-	string ret = calc->Solve("22+5");
-	cout << ret << endl;
-	getchar();
+	 getchar();
+
 }
+
 
 
